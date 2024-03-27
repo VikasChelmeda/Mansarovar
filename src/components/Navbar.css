@@ -1,0 +1,50 @@
+.navbar {
+    background-color: white;
+    color: #fff;
+  }
+  
+  .navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center align items */
+  }
+  
+  .logo img {
+    height: 50px; /* Adjust the height of the logo image */
+  }
+  
+  .nav-links ul {
+    list-style: none;
+    display: flex;
+    align-items: center; 
+  }
+  
+  .nav-links ul li {
+    margin-right: 10px;
+    
+  }
+  
+  .nav-links ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links ul li a {
+    color: #333; /* Default color */
+  }
+  
+  .nav-links ul li a:hover {
+    color: #ccc; /* Color on hover */
+  }
+ 
+  .profile {
+    margin-left: auto;
+}
+
+.profile img {
+    object-fit: cover;
+    cursor: pointer; 
+    width: 100%;
+}
